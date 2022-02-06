@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+} 
+
+/* ......................MENU DEFAULT.................. */
+
+.menu-top{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.item-menu{
+    margin: 20px;
+    padding: 7px 22px 7px 22px; 
+}
+
+.default{
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.default a {
+    color: #1a1e27;
+}
+
+.item-menu:hover{
+    border-radius: 20px;
+    background-color: #6fcfff;
+    color: #fff;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Fraunces', sans-serif;
+    font-size: large;
+
+}
+
+.shake{
+    animation: shake .25s linear;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 25px;
+}
+
+.h1header{
+    color: #fff;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    letter-spacing: .6rem;
+    font-family: 'Fraunces', serif;
+}
+
+.arrow{
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.article1{
+    padding: 7%;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.article1 h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.article1 a{
+    font-weight: bold;
+    font-family: serif;
+    font-size: 1rem;
+    color: black;
+    text-decoration:  hsla(51, 100%, 49%, 0.5) underline 10px ; 
+    text-transform: uppercase;
+    transition: .25s linear ;
+}
+.article1 a:hover{
+    font-weight: bold;
+    font-family: serif;
+    color: black;
+    text-decoration:  hsl(51, 100%, 49%) underline 10px ; 
+    text-transform: uppercase;
+    text-shadow: #a5a5a5 .5px .5px 4px ;
+   
+    
+}
+
+
+img.article2{
+width: 100%;
+}
+
+img.article3{
+    width: 100%;
+    margin: 0;
+}
+img.article5 {
+    width: 100%;
+    margin: 0;
+
+}
+img.article6 {
+    width: 100%;
+    margin: 0;
+}
+
+
+.article2{
+    padding: 0;
+}
+    
+.article3{
+    padding: 0;
+}
+
+.article4{
+    padding: 7%;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.article4 h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.article4 a{
+    font-weight: bold;
+    font-family: serif;
+    font-size: 1rem;
+    color: black;
+    text-decoration:  #ff6d5780 underline 10px ; 
+    text-transform: uppercase;
+    transition: .25s linear ;
+}
+.article4 a:hover{
+    font-weight: bold;
+    font-family: serif;
+    color: black;
+    text-decoration:  #ff6e57 underline 10px ; 
+    text-transform: uppercase;
+    text-shadow: #a5a5a5 .5px .5px 4px ;
+
+}
+
+
+.article5{
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+.article5 h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: serif;
+    margin-bottom: 3%;
+}
+
+.article5 p {
+    width: 75%;
+    margin: auto;
+    font-size: .9rem;
+}
+.article5 div {
+    position: relative;
+    bottom: 30%;
+    color: #184139 ;
+}
+
+
+
+.article6{
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+}
+
+.article6 h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: serif;
+    margin-bottom: 3%;
+}
+
+.article6 p {
+    width: 75%;
+    margin: auto;
+    font-size: .9rem;
+}
+.article6 div {
+    position: relative;
+    bottom: 30%;
+    color: #184139 ;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  
+}
+
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientHeader{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5%;
+    margin-bottom: 5%;
+    color: #aaabad;
+    font-family: serif;
+}
+
+.client div p{
+    text-align: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    padding-top: 0%;
+}
+
+.client div h5{
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    padding: 15%;
+    padding-bottom:2%;
+
+}
+
+.gallery img{
+    margin: 0;
+    margin-top: 7%;
+    padding: 0;
+}
+
+.socialmedia{
+    height: fit-content;
+    width: 100%;
+    background-color: #90d4c5;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: .35s;
+}
+
+.socialmedia a .footerlogo{
+    display: block;
+    margin: auto;
+    filter: invert(1) brightness(0);
+    padding: 1%;
+    padding-top: 6%;
+}
+
+.footermenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footermenu a {
+    padding: 2%;
+    padding-bottom: 2%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c7466;
+    transition: linear .25s;
+
+}
+
+
+.footermenu a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: linear .25s;
+}
+
+.Contact a  {
+    padding: 1.5%;
+    padding-top: 1% ;
+    padding-bottom: 3%;
+}
+
+.Contact a :hover{
+    filter: brightness(0) invert(1);
+    transition: linear .25s;
+
+}
+
+
+@media only screen and (min-width:767px){
+
+    .pc{display: flex;}
+    .mb{display: none;}
+   
+}
+
+@media only screen and (max-width:767px){
+
+    .pc{display: none;}
+    .mb{display: flex;}
+
+    main .mobile{
+        text-align: center;
+    }
+
+    .menu-top{
+        background-color: white;
+        width: 85%;
+        margin: auto;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 15%;
+        overflow: visible;
+    }
+    
+    .arrow{
+        display: block;
+        margin: auto;
+        margin-top: 20%;
+    }
+        
+    li a{
+    text-decoration: none;
+    color: #818287;
+    font-family: sans-serif;
+    font-size: large;
+
+    }
+    li a :hover{
+        text-decoration: none;
+        background-color: #6fcfff;
+        font-family: sans-serif;
+        font-size: large;
+    
+        }
+
+    .default{
+        background-color: #fbd601 ;
+        color: black;
+    }
+    .default:hover{
+        background-color: #6fcfff ;
+        color: black;
+    }
+    
+    .h1header{
+    position: relative;
+    top : 15%
+    }
+
+    .hamburger{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        left: 92%;
+        top: 3%;
+    }
+
+    .sharp{
+        display: none;
+        width: 70px;
+        height: 72px;
+        background-color: white;
+        position: absolute;
+        top: 14%;
+        right: 6%;
+        transform: rotate3d(0, -24, 18,90deg    );
+    }
+
+    .client{
+        margin-bottom: 5%;
+    }
+
+    .article5{
+        height: 800px;
+    }
+
+    .article6{
+        height: 800px;
+    }
+    
+    
+    .clientHeader {
+        margin: 15%;
+        margin-bottom : 5%;
+    }
+
+    .profile {
+        padding: 15%;
+        padding-bottom: 5%;
+    }
+
+    .client div h5 {
+        padding: 7%;
+        padding-bottom: 2%;
+    }
+
+    .client div  {
+      margin: auto;
+      width: 85%;
+    }
+
+    .gallery img{
+        margin: 0;
+    }
+
+    
+.socialmedia a .footerlogo{
+    padding: 5%;
+    padding-top: 15%;
+    }
+    
+.footermenu a {
+    padding: 5%;
+    }
+    .Contact a {
+        padding: 3%;
+        padding-bottom:10%;
+    }
+}
+
+@media only screen and (max-width:510px){
+
+    .arrow{
+    display: block;
+    margin: auto;
+    margin-top: 40%;
+    }
+}
